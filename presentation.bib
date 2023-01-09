@@ -1,13 +1,171 @@
-@article{klare2021jss,
-  title = {{Enabling consistency in view-based system development -- The Vitruvius approach}},
-  journal = {Journal of Systems and Software},
-  year = {2021},
-  volume = {171},
-  issn = {0164-1212},
-  doi = {https://doi.org/10.1016/j.jss.2020.110815},
-  url = {http://www.sciencedirect.com/science/article/pii/S0164121220302144},
-  author = {Heiko Klare and Max E. Kramer and Michael Langhammer and Dominik Werle and Erik Burger and Ralf Reussner},
-  keywords = {Consistency, Model-driven software development, Model transformations, Model views},
-  abstract = {During the development of large software-intensive systems, developers use several modeling languages and tools to describe a system from different viewpoints. Model-driven and view-based technologies have made it easier to define domain-specific languages and transformations. Nevertheless, using several languages leads to fragmentation of information, to redundancies in the system description, and eventually to inconsistencies. Inconsistencies have negative impacts on the systemâ€™s quality and are costly to fix. Often, there is no support for consistency management across multiple languages. Using a single language is no practicable solution either, as it is overly complex to define, use, and evolve such a language. View-based development is a suitable approach to deal with complex systems, and is widely used in other engineering disciplines. Still, we need to cope with the problems of fragmentation and consistency. In this paper, we present the Vitruviusapproach for consistency in view-based modeling. We describe the approach by formalizing the notion of consistency, presenting languages for consistency preservation, and defining a model-driven development process. Furthermore, we show how existing models can be integrated. We have evaluated our approach at two case studies from component-based and embedded automotive software development, using our prototypical implementation based on the Eclipse Modeling Framework.},
-  tags = {Vitruv}
+
+@techreport{amd,
+  author      = {{Advanced Micro Devices, Inc.}},
+  institution = {Advanced Micro Devices, Inc.},
+  title       = {Secure Encrypted Virtualization API Version 0.24 — Technical Preview},
+  year        = {2020, Zugriff: 11/2022}
+}
+
+@techreport{bechtold,
+  abstract  = {Trusted Computing will das Vertrauen in unsere IT-Umgebung erh\"{o}hen. Durch die Einf\"{u}gung
+               spezieller Hardware-Komponenten in die herk\"{o}mmliche Computerarchitektur soll die Grundlage f\"{u}r ein
+               Vertrauen in Softwareprogramme gelegt werden. Die zugrunde liegenden Technologien, die sich noch im
+               Entwicklungsstadium befinden, k\"{o}nnen zu vielf\"{a}ltigen rechtspolitischen und rechtlichen Problemen
+               f\"{u}hren. Dieser Beitrag gibt einen \"{U}berblick \"{u}ber spezifische Probleme des Trusted Computing.
+               Nach einer Einf\"{u}hrung in die technischen Grundlagen behandelt der Beitrag Fragen des Kartell-,
+               Datenschutz- und Urheberrechts. Viele der aufgeworfenen Fragen haben sich noch nicht derart konkretisiert,
+               dass sie zu aktuellen Rechtsproblemen f\"{u}hren. Es ist das Ziel des Beitrags, Bereiche aufzuzeigen, die
+               zuk\"{u}nftig zu rechtlichen Problemen f\"{u}hren k\"{o}nnen. Dabei zeigt sich, dass viele der potentiellen
+               Probleme durch ein geschicktes Design der technischen Trusted-Computing-Architektur oder des
+               institutionellen Arrangements, das die Architektur umgibt, gel\"{o}st werden k\"{o}nnen. Es geht also um
+               Fragen im Schnittfeld von Technik und Recht. Es geht auch um M\"{o}glichkeiten und Grenzen einer
+               rechtlichen Technikgestaltung.},
+  address   = {Bonn},
+  author    = {Stefan Bechtold},
+  copyright = {http://www.econstor.eu/dspace/Nutzungsbedingungen},
+  keywords  = {340},
+  language  = {ger},
+  number    = {2005,20},
+  publisher = {Max Planck Institute for Research on Collective Goods},
+  title     = {Trusted Computing: rechtliche Probleme einer entstehenden Technologie},
+  type      = {Preprints of the Max Planck Institute for Research on Collective Goods},
+  url       = {http://hdl.handle.net/10419/26879},
+  year      = {2005}
+}
+
+@inproceedings{buhren,
+  author    = {Buhren, Robert and Werling, Christian and Seifert, Jean-Pierre},
+  title     = {Insecure Until Proven Updated: Analyzing AMD SEV's Remote Attestation},
+  year      = {2019},
+  isbn      = {9781450367479},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/3319535.3354216},
+  doi       = {10.1145/3319535.3354216},
+  abstract  = {Cloud computing is one of the most prominent technologies to host Internet services that
+               unfortunately leads to an increased risk of data theft. Customers of cloud services have to trust
+               the cloud providers, as they control the building blocks that form the cloud. This includes the
+               hypervisor enabling the sharing of a single hardware platform among multiple tenants. Executing in
+               a higher-privileged CPU mode, the hypervisor has direct access to the memory of virtual machines.
+               While data at rest can be protected using well-known disk encryption methods, data residing in main
+               memory is still threatened by a potentially malicious cloud provider. AMD Secure Encrypted
+               Virtualization (SEV) claims a new level of protection in such cloud scenarios. AMD SEV encrypts the
+               main memory of virtual machines with VM-specific keys, thereby denying the higher-privileged
+               hypervisor access to a guest's memory. To enable the cloud customer to verify the correct deployment
+               of his virtual machine, SEV additionally introduces a remote attestation protocol. This protocol is
+               a crucial component of the SEV technology that can prove that SEV protection is in place and that
+               the virtual machine was not subject to manipulation. This paper analyzes the firmware components
+               that implement the SEV remote attestation protocol on the current AMD Epyc Naples CPU series. We
+               demonstrate that it is possible to extract critical CPU-specific keys that are fundamental for the
+               security of the remote attestation protocol. Building on the extracted keys, we propose attacks that
+               allow a malicious cloud provider a complete circumvention of the SEV protection mechanisms. Although
+               the underlying firmware issues were already fixed by AMD, we show that the current series of AMD Epyc
+               CPUs, i.e., the Naples series, does not prevent the installation of previous firmware versions. We
+               show that the severity of our proposed attacks is very high as no purely software-based mitigations
+               are possible. This effectively renders the SEV technology on current AMD Epyc CPUs useless when
+               confronted with an untrusted cloud provider. To overcome these issues, we also propose robust changes
+               to the SEV design that allow future generations of the SEV technology to mitigate the proposed attacks.},
+  booktitle = {Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security},
+  pages     = {1087 - 1099},
+  numpages  = {13},
+  keywords  = {shielding systems, cloud computing, sev, secure encrypted virtualization, virtualization,
+               remote attestation},
+  location  = {London, United Kingdom},
+  series    = {CCS '19}
+} publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+@misc{costan,
+  author       = {Victor Costan and Srinivas Devadas},
+  title        = {Intel SGX Explained},
+  howpublished = {Cryptology ePrint Archive, Paper 2016/086},
+  year         = {2016},
+  note         = {\url{https://eprint.iacr.org/2016/086}},
+  url          = {https://eprint.iacr.org/2016/086}
+}              a higher-privileged CPU mode, the hypervisor has direct access to the memory of virtual machines.
+               While data at rest can be protected using well-known disk encryption methods, data residing in main
+@techreport{ibm,
+  author      = {{IBM}},
+  institution = {IBM},
+  title       = {Was ist Cloud-Computing? - Deutschland - IBM},
+  year        = {Zugriff: 12/2022}
+}              a crucial component of the SEV technology that can prove that SEV protection is in place and that
+               the virtual machine was not subject to manipulation. This paper analyzes the firmware components
+@techreport{intel,
+  author      = {{Intel Corporation}},
+  institution = {Intel Corporation},
+  title       = {Intel® Software Guard Extensions (Intel SGX), Protect and Isolate Confidential Data — Even
+                 While You Share and Process It},
+  year        = {2022, Zugriff: 11/2022}
+}              CPUs, i.e., the Naples series, does not prevent the installation of previous firmware versions. We
+               show that the severity of our proposed attacks is very high as no purely software-based mitigations
+@techreport{kaplan,
+  author      = {{David Kaplan}, {Jeremy Powell} and {Tom Woller}},
+  institution = {Advanced Micro Devices},
+  title       = {AMD MEMORY ENCRYPTION},
+  year        = {2021}
+} title       = {AMD MEMORY ENCRYPTION},
+  year        = {2021}
+@misc{knauth,
+  doi       = {10.48550/ARXIV.1801.05863},
+  url       = {https://arxiv.org/abs/1801.05863},
+  author    = {Knauth, Thomas and Steiner, Michael and Chakrabarti, Somnath and Lei, Li and Xing, Cedric and Vij, Mona},
+  keywords  = {Cryptography and Security (cs.CR), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {Integrating Remote Attestation with Transport Layer Security},
+  publisher = {arXiv},
+  year      = {2018},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}              environments including ARM TrustZone, Intel Management Engine, and AMD Platform Security Processor.
+               Recently, Intel Software Guard eXtensions (SGX) and AMD Memory Encryption Technology have been
+@inproceedings{mofrad,
+  author    = {Mofrad, Saeid and Zhang, Fengwei and Lu, Shiyong and Shi, Weidong},
+  title     = {A Comparison Study of Intel SGX and AMD Memory Encryption Technology},
+  year      = {2018},
+  isbn      = {9781450365000},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/3214292.3214301},
+  doi       = {10.1145/3214292.3214301},
+  abstract  = {Hardware-assisted trusted execution environments are secure isolation technologies that
+               have been engineered to serve as efficient defense mechanisms to provide a security boundary at the
+               system level. Hardware vendors have introduced a variety of hardware-assisted trusted execution
+               environments including ARM TrustZone, Intel Management Engine, and AMD Platform Security Processor.
+               Recently, Intel Software Guard eXtensions (SGX) and AMD Memory Encryption Technology have been
+               introduced. To the best of our knowledge, this paper presents the first comparison study between Intel
+               SGX and AMD Memory Encryption Technology in terms of functionality, use scenarios, security, and
+               performance implications. We summarize the pros and cons of these two approaches in comparison to
+               each other.},
+  booktitle = {Proceedings of the 7th International Workshop on Hardware and Architectural Support for
+               Security and Privacy},
+  articleno = {9},
+  numpages  = {8},
+  keywords  = {AMD SEV, hardware-supported security, Intel SGX},
+  location  = {Los Angeles, California},
+  series    = {HASP '18}
+} numpages  = {8},
+  keywords  = {AMD SEV, hardware-supported security, Intel SGX},
+@inproceedings{surbiryala,
+  author    = {Surbiryala, Jayachander and Rong, Chunming},
+  booktitle = {2019 IEEE Cloud Summit},
+  title     = {Cloud Computing: History and Overview},
+  year      = {2019},
+  volume    = {},
+  number    = {},
+  pages     = {1-7},
+  doi       = {10.1109/CloudSummit47114.2019.00007}
+} note         = {\url{https://eprint.iacr.org/2017/736}},
+  url          = {https://eprint.iacr.org/2017/736}
+@misc{swami,
+  author       = {Yogesh Swami},
+  title        = {SGX Remote Attestation is not Sufficient},
+  howpublished = {Cryptology ePrint Archive, Paper 2017/736},
+  year         = {2017},
+  note         = {\url{https://eprint.iacr.org/2017/736}},
+  url          = {https://eprint.iacr.org/2017/736}
+}
+
+@techreport{weis,
+  author      = {{Ruediger Weis} and {Andreas Bogk}},
+  institution = {{cryptolabs Amsterdam}, {Chaos Computer Club Berlin}},
+  title       = {Trusted Computing - eine unendliche Geschichte},
+  year        = {2004}
 }

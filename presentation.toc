@@ -1,0 +1,13 @@
+\babel@toc {ngerman}{}\relax 
+\beamer@sectionintoc {1}{Einleitung}{3}{0}{1}
+\beamer@sectionintoc {2}{Stand der Technik}{4}{0}{2}
+\beamer@sectionintoc {3}{Hauptteil}{5}{0}{3}
+\beamer@subsectionintoc {3}{1}{AMD Secure Memory Encryption}{5}{0}{3}
+\beamer@subsectionintoc {3}{2}{AMD Secure Encrypted Virtualization}{6}{0}{3}
+\beamer@subsectionintoc {3}{3}{Intel SGX}{7}{0}{3}
+\beamer@sectionintoc {4}{Evaluation}{8}{0}{4}
+\beamer@subsectionintoc {4}{1}{Funktion \& Anwendungsfälle}{8}{0}{4}
+\beamer@subsectionintoc {4}{2}{Sicherheit}{9}{0}{4}
+\beamer@subsectionintoc {4}{3}{Performance}{10}{0}{4}
+\beamer@subsectionintoc {4}{4}{Remote Attestation}{11}{0}{4}
+\beamer@sectionintoc {5}{Schlussfolgerung}{12}{0}{5}
