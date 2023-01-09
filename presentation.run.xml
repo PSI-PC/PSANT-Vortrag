@@ -41,7 +41,11 @@
   >
 ]>
 <requests version="1.0">
+<<<<<<< HEAD
   <internal package="biblatex" priority="9" active="0">
+=======
+  <internal package="biblatex" priority="9" active="1">
+>>>>>>> 4d0f258e3de7aa50bb42b99b40e012e2082c703e
     <generic>latex</generic>
     <provides type="dynamic">
       <file>presentation.bcf</file>
@@ -61,7 +65,11 @@
       <file>ngerman.lbx</file>
     </requires>
   </internal>
+<<<<<<< HEAD
   <external package="biblatex" priority="5" active="0">
+=======
+  <external package="biblatex" priority="5" active="1">
+>>>>>>> 4d0f258e3de7aa50bb42b99b40e012e2082c703e
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
