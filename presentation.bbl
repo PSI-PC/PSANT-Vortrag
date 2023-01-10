@@ -16,5 +16,480 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{amd}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bf70e453946d5be989799409fe1e53b9}{%
+           family={{Advanced Micro Devices, Inc.}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Advanced Micro Devices, Inc.}%
+      }
+      \strng{namehash}{bf70e453946d5be989799409fe1e53b9}
+      \strng{fullhash}{bf70e453946d5be989799409fe1e53b9}
+      \strng{bibnamehash}{bf70e453946d5be989799409fe1e53b9}
+      \strng{authorbibnamehash}{bf70e453946d5be989799409fe1e53b9}
+      \strng{authornamehash}{bf70e453946d5be989799409fe1e53b9}
+      \strng{authorfullhash}{bf70e453946d5be989799409fe1e53b9}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Secure Encrypted Virtualization API Version 0.24 — Technical Preview}
+      \field{type}{techreport}
+      \field{year}{2020, Zugriff: 11/2022}
+    \endentry
+    \entry{bechtold}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d2176f132427d819db3d8d587d58975e}{%
+           family={Bechtold},
+           familyi={B\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {ger}%
+      }
+      \list{location}{1}{%
+        {Bonn}%
+      }
+      \list{publisher}{1}{%
+        {Max Planck Institute for Research on Collective Goods}%
+      }
+      \strng{namehash}{d2176f132427d819db3d8d587d58975e}
+      \strng{fullhash}{d2176f132427d819db3d8d587d58975e}
+      \strng{bibnamehash}{d2176f132427d819db3d8d587d58975e}
+      \strng{authorbibnamehash}{d2176f132427d819db3d8d587d58975e}
+      \strng{authornamehash}{d2176f132427d819db3d8d587d58975e}
+      \strng{authorfullhash}{d2176f132427d819db3d8d587d58975e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Trusted Computing will das Vertrauen in unsere IT-Umgebung erhöhen. Durch die Einfügung spezieller Hardware-Komponenten in die herkömmliche Computerarchitektur soll die Grundlage für ein Vertrauen in Softwareprogramme gelegt werden. Die zugrunde liegenden Technologien, die sich noch im Entwicklungsstadium befinden, können zu vielfältigen rechtspolitischen und rechtlichen Problemen führen. Dieser Beitrag gibt einen Überblick über spezifische Probleme des Trusted Computing. Nach einer Einführung in die technischen Grundlagen behandelt der Beitrag Fragen des Kartell-, Datenschutz- und Urheberrechts. Viele der aufgeworfenen Fragen haben sich noch nicht derart konkretisiert, dass sie zu aktuellen Rechtsproblemen führen. Es ist das Ziel des Beitrags, Bereiche aufzuzeigen, die zukünftig zu rechtlichen Problemen führen können. Dabei zeigt sich, dass viele der potentiellen Probleme durch ein geschicktes Design der technischen Trusted-Computing-Architektur oder des institutionellen Arrangements, das die Architektur umgibt, gelöst werden können. Es geht also um Fragen im Schnittfeld von Technik und Recht. Es geht auch um Möglichkeiten und Grenzen einer rechtlichen Technikgestaltung.}
+      \field{number}{2005,20}
+      \field{title}{Trusted Computing: rechtliche Probleme einer entstehenden Technologie}
+      \field{type}{Preprints of the Max Planck Institute for Research on Collective Goods}
+      \field{year}{2005}
+      \verb{urlraw}
+      \verb http://hdl.handle.net/10419/26879
+      \endverb
+      \verb{url}
+      \verb http://hdl.handle.net/10419/26879
+      \endverb
+      \keyw{340}
+    \endentry
+    \entry{buhren}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7c753f5f45b88c4ec8c663668b3fcbf3}{%
+           family={Buhren},
+           familyi={B\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09a33a999ae9b3527b9292ca62dd8a02}{%
+           family={Werling},
+           familyi={W\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed83c5ceed1edd0dbc3cc610adf79477}{%
+           family={Seifert},
+           familyi={S\bibinitperiod},
+           given={Jean-Pierre},
+           giveni={J\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London, United Kingdom}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{01b89456836411d7bc2fc919fe6f264e}
+      \strng{fullhash}{01b89456836411d7bc2fc919fe6f264e}
+      \strng{bibnamehash}{01b89456836411d7bc2fc919fe6f264e}
+      \strng{authorbibnamehash}{01b89456836411d7bc2fc919fe6f264e}
+      \strng{authornamehash}{01b89456836411d7bc2fc919fe6f264e}
+      \strng{authorfullhash}{01b89456836411d7bc2fc919fe6f264e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Cloud computing is one of the most prominent technologies to host Internet services that unfortunately leads to an increased risk of data theft. Customers of cloud services have to trust the cloud providers, as they control the building blocks that form the cloud. This includes the hypervisor enabling the sharing of a single hardware platform among multiple tenants. Executing in a higher-privileged CPU mode, the hypervisor has direct access to the memory of virtual machines. While data at rest can be protected using well-known disk encryption methods, data residing in main memory is still threatened by a potentially malicious cloud provider. AMD Secure Encrypted Virtualization (SEV) claims a new level of protection in such cloud scenarios. AMD SEV encrypts the main memory of virtual machines with VM-specific keys, thereby denying the higher-privileged hypervisor access to a guest's memory. To enable the cloud customer to verify the correct deployment of his virtual machine, SEV additionally introduces a remote attestation protocol. This protocol is a crucial component of the SEV technology that can prove that SEV protection is in place and that the virtual machine was not subject to manipulation. This paper analyzes the firmware components that implement the SEV remote attestation protocol on the current AMD Epyc Naples CPU series. We demonstrate that it is possible to extract critical CPU-specific keys that are fundamental for the security of the remote attestation protocol. Building on the extracted keys, we propose attacks that allow a malicious cloud provider a complete circumvention of the SEV protection mechanisms. Although the underlying firmware issues were already fixed by AMD, we show that the current series of AMD Epyc CPUs, i.e., the Naples series, does not prevent the installation of previous firmware versions. We show that the severity of our proposed attacks is very high as no purely software-based mitigations are possible. This effectively renders the SEV technology on current AMD Epyc CPUs useless when confronted with an untrusted cloud provider. To overcome these issues, we also propose robust changes to the SEV design that allow future generations of the SEV technology to mitigate the proposed attacks.}
+      \field{booktitle}{Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security}
+      \field{isbn}{9781450367479}
+      \field{series}{CCS '19}
+      \field{title}{Insecure Until Proven Updated: Analyzing AMD SEV's Remote Attestation}
+      \field{year}{2019}
+      \field{pages}{1087\bibrangedash 1099}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1145/3319535.3354216
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3319535.3354216
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3319535.3354216
+      \endverb
+      \keyw{shielding systems,cloud computing,sev,secure encrypted virtualization,virtualization,remote attestation}
+    \endentry
+    \entry{costan}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=51a352c7306910a4bef62e293e6097ea}{%
+           family={Costan},
+           familyi={C\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4be4060700fa73556250f6feefb96f46}{%
+           family={Devadas},
+           familyi={D\bibinitperiod},
+           given={Srinivas},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2561c882479f6a08aa24884302f4fef3}
+      \strng{fullhash}{2561c882479f6a08aa24884302f4fef3}
+      \strng{bibnamehash}{2561c882479f6a08aa24884302f4fef3}
+      \strng{authorbibnamehash}{2561c882479f6a08aa24884302f4fef3}
+      \strng{authornamehash}{2561c882479f6a08aa24884302f4fef3}
+      \strng{authorfullhash}{2561c882479f6a08aa24884302f4fef3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Cryptology ePrint Archive, Paper 2016/086}
+      \field{note}{\url{https://eprint.iacr.org/2016/086}}
+      \field{title}{Intel SGX Explained}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://eprint.iacr.org/2016/086
+      \endverb
+      \verb{url}
+      \verb https://eprint.iacr.org/2016/086
+      \endverb
+    \endentry
+    \entry{kaplan}{report}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2b8bf12f72568b130b256b0dfd653823}{%
+           family={{David Kaplan}},
+           familyi={D\bibinitperiod},
+           given={{Jeremy Powell}},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa9c45e709667de1d1aaf182e0c33f97}{%
+           family={{Tom Woller}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Advanced Micro Devices}%
+      }
+      \strng{namehash}{473378d93566cb45dd87728df986e327}
+      \strng{fullhash}{473378d93566cb45dd87728df986e327}
+      \strng{bibnamehash}{473378d93566cb45dd87728df986e327}
+      \strng{authorbibnamehash}{473378d93566cb45dd87728df986e327}
+      \strng{authornamehash}{473378d93566cb45dd87728df986e327}
+      \strng{authorfullhash}{473378d93566cb45dd87728df986e327}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{AMD MEMORY ENCRYPTION}
+      \field{type}{techreport}
+      \field{year}{2021}
+    \endentry
+    \entry{ibm}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={{IBM}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {IBM}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Was ist Cloud-Computing? - Deutschland - IBM}
+      \field{type}{techreport}
+      \field{year}{Zugriff: 12/2022}
+    \endentry
+    \entry{intel}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b7f0fb90e404efb48f8a85a517dec3c9}{%
+           family={{Intel Corporation}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Intel Corporation}%
+      }
+      \strng{namehash}{b7f0fb90e404efb48f8a85a517dec3c9}
+      \strng{fullhash}{b7f0fb90e404efb48f8a85a517dec3c9}
+      \strng{bibnamehash}{b7f0fb90e404efb48f8a85a517dec3c9}
+      \strng{authorbibnamehash}{b7f0fb90e404efb48f8a85a517dec3c9}
+      \strng{authornamehash}{b7f0fb90e404efb48f8a85a517dec3c9}
+      \strng{authorfullhash}{b7f0fb90e404efb48f8a85a517dec3c9}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Intel® Software Guard Extensions (Intel SGX), Protect and Isolate Confidential Data — Even While You Share and Process It}
+      \field{type}{techreport}
+      \field{year}{2022, Zugriff: 11/2022}
+    \endentry
+    \entry{knauth}{misc}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=d9281335117f544300e6ddc63a1b1e51}{%
+           family={Knauth},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=44fbd4ca80a1669571e386d3877c9600}{%
+           family={Steiner},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de145a3d5793a528ac49dcb8c45e95e6}{%
+           family={Chakrabarti},
+           familyi={C\bibinitperiod},
+           given={Somnath},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a447104b91074b6c7e0150cd09a4b64d}{%
+           family={Lei},
+           familyi={L\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9151a37f1f7c8d308401a9bc925806f}{%
+           family={Xing},
+           familyi={X\bibinitperiod},
+           given={Cedric},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4881c7c0b2ef2fbf3ea63c861fe7e0e}{%
+           family={Vij},
+           familyi={V\bibinitperiod},
+           given={Mona},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{d8a562117d7e90105fa27aaef14ac5e8}
+      \strng{fullhash}{a8fe08c7f05cf816d6cb28103b27672c}
+      \strng{bibnamehash}{d8a562117d7e90105fa27aaef14ac5e8}
+      \strng{authorbibnamehash}{d8a562117d7e90105fa27aaef14ac5e8}
+      \strng{authornamehash}{d8a562117d7e90105fa27aaef14ac5e8}
+      \strng{authorfullhash}{a8fe08c7f05cf816d6cb28103b27672c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Integrating Remote Attestation with Transport Layer Security}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1801.05863
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1801.05863
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1801.05863
+      \endverb
+      \keyw{Cryptography and Security (cs.CR),FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
+    \entry{mofrad}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9f323a7ba80c9828460111f014a039d4}{%
+           family={Mofrad},
+           familyi={M\bibinitperiod},
+           given={Saeid},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=058a9b1ef3c4145911e8c324ccd7cf44}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Fengwei},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a09eff83f8f4f95b3cbb262df99388d}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Shiyong},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81d3a3f8e7369726b66fcfeed4589af1}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Weidong},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Los Angeles, California}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{79548e75c037b4e786746dbbab9772d1}
+      \strng{fullhash}{d7c0f03fb07754f5be39a75e362a806d}
+      \strng{bibnamehash}{79548e75c037b4e786746dbbab9772d1}
+      \strng{authorbibnamehash}{79548e75c037b4e786746dbbab9772d1}
+      \strng{authornamehash}{79548e75c037b4e786746dbbab9772d1}
+      \strng{authorfullhash}{d7c0f03fb07754f5be39a75e362a806d}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Hardware-assisted trusted execution environments are secure isolation technologies that have been engineered to serve as efficient defense mechanisms to provide a security boundary at the system level. Hardware vendors have introduced a variety of hardware-assisted trusted execution environments including ARM TrustZone, Intel Management Engine, and AMD Platform Security Processor. Recently, Intel Software Guard eXtensions (SGX) and AMD Memory Encryption Technology have been introduced. To the best of our knowledge, this paper presents the first comparison study between Intel SGX and AMD Memory Encryption Technology in terms of functionality, use scenarios, security, and performance implications. We summarize the pros and cons of these two approaches in comparison to each other.}
+      \field{booktitle}{Proceedings of the 7th International Workshop on Hardware and Architectural Support for Security and Privacy}
+      \field{isbn}{9781450365000}
+      \field{series}{HASP '18}
+      \field{title}{A Comparison Study of Intel SGX and AMD Memory Encryption Technology}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1145/3214292.3214301
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3214292.3214301
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3214292.3214301
+      \endverb
+      \keyw{AMD SEV,hardware-supported security,Intel SGX}
+    \endentry
+    \entry{weis}{report}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=688782a4acf698b5e872c14684bf55db}{%
+           family={{Ruediger Weis}},
+           familyi={R\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=3e3056cb5b821e0e5eb8fe52e784ceea}{%
+           family={{Andreas Bogk}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {{cryptolabs Amsterdam}, {Chaos Computer Club Berlin}}%
+      }
+      \strng{namehash}{2de478d7029091cfcec3ac693c8d7aea}
+      \strng{fullhash}{2de478d7029091cfcec3ac693c8d7aea}
+      \strng{bibnamehash}{2de478d7029091cfcec3ac693c8d7aea}
+      \strng{authorbibnamehash}{2de478d7029091cfcec3ac693c8d7aea}
+      \strng{authornamehash}{2de478d7029091cfcec3ac693c8d7aea}
+      \strng{authorfullhash}{2de478d7029091cfcec3ac693c8d7aea}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Trusted Computing - eine unendliche Geschichte}
+      \field{type}{techreport}
+      \field{year}{2004}
+    \endentry
+    \entry{surbiryala}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8ef23f691e4b80a4f1234c5898288bce}{%
+           family={Surbiryala},
+           familyi={S\bibinitperiod},
+           given={Jayachander},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24e263eb2f7a0987b3a504c49c760130}{%
+           family={Rong},
+           familyi={R\bibinitperiod},
+           given={Chunming},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{49a426d0e91f19a344f82c72a66722e9}
+      \strng{fullhash}{49a426d0e91f19a344f82c72a66722e9}
+      \strng{bibnamehash}{49a426d0e91f19a344f82c72a66722e9}
+      \strng{authorbibnamehash}{49a426d0e91f19a344f82c72a66722e9}
+      \strng{authornamehash}{49a426d0e91f19a344f82c72a66722e9}
+      \strng{authorfullhash}{49a426d0e91f19a344f82c72a66722e9}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 IEEE Cloud Summit}
+      \field{title}{Cloud Computing: History and Overview}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/CloudSummit47114.2019.00007
+      \endverb
+    \endentry
+    \entry{swami}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7985b576da63f85155b65fbfba150baf}{%
+           family={Swami},
+           familyi={S\bibinitperiod},
+           given={Yogesh},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7985b576da63f85155b65fbfba150baf}
+      \strng{fullhash}{7985b576da63f85155b65fbfba150baf}
+      \strng{bibnamehash}{7985b576da63f85155b65fbfba150baf}
+      \strng{authorbibnamehash}{7985b576da63f85155b65fbfba150baf}
+      \strng{authornamehash}{7985b576da63f85155b65fbfba150baf}
+      \strng{authorfullhash}{7985b576da63f85155b65fbfba150baf}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Cryptology ePrint Archive, Paper 2017/736}
+      \field{note}{\url{https://eprint.iacr.org/2017/736}}
+      \field{title}{SGX Remote Attestation is not Sufficient}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://eprint.iacr.org/2017/736
+      \endverb
+      \verb{url}
+      \verb https://eprint.iacr.org/2017/736
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

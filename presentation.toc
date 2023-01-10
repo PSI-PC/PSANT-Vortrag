@@ -2,11 +2,8 @@
 \beamer@sectionintoc {1}{Einleitung}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Cloud-Computing}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{Stand der Technik}{4}{0}{1}
-\beamer@sectionintoc {2}{Hauptteil}{5}{0}{2}
-\beamer@subsectionintoc {2}{1}{AMD Secure Memory Encryption}{5}{0}{2}
-\beamer@subsectionintoc {2}{2}{AMD Secure Encrypted Virtualization}{6}{0}{2}
-\beamer@subsectionintoc {2}{3}{Intel SGX}{7}{0}{2}
-\beamer@sectionintoc {3}{Evaluation}{8}{0}{3}
-\beamer@sectionintoc {4}{Schluss}{13}{0}{4}
-\beamer@subsectionintoc {4}{1}{Zusammenfassung}{13}{0}{4}
-\beamer@subsectionintoc {4}{2}{Ausblick}{14}{0}{4}
+\beamer@sectionintoc {2}{Hauptteil}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{AMD Secure Memory Encryption}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{AMD Secure Encrypted Virtualization}{7}{0}{2}
+\beamer@subsectionintoc {2}{3}{Intel SGX}{8}{0}{2}
+\beamer@sectionintoc {3}{Evaluation}{9}{0}{3}
