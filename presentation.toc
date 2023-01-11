@@ -5,5 +5,5 @@
 \beamer@sectionintoc {2}{Hauptteil}{6}{0}{2}
 \beamer@subsectionintoc {2}{1}{AMD Secure Memory Encryption}{6}{0}{2}
 \beamer@subsectionintoc {2}{2}{AMD Secure Encrypted Virtualization}{7}{0}{2}
-\beamer@subsectionintoc {2}{3}{Intel SGX}{8}{0}{2}
-\beamer@sectionintoc {3}{Evaluation}{9}{0}{3}
+\beamer@subsectionintoc {2}{3}{Intel SGX}{9}{0}{2}
+\beamer@sectionintoc {3}{Evaluation}{10}{0}{3}

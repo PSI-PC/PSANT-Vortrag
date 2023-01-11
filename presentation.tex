@@ -96,13 +96,15 @@
 
 \subsection{AMD Secure Memory Encryption}
 \begin{frame}{AMD Secure Memory Encryption}
-	Text
 	\begin{itemize}
-		\item Auflistung\\ Umbruch
-		\item Auflistung
+		\item Allzweckmechanismus zur Hauptspeicher-Verschlüsselung
+		\item Hardware-Bauteile in CPU-Architektur
+		\item Advanced Encryption Standard (AES) Modul
+		\item AMD Secure Prozessor \(\rightarrow\) Schlüssel
+		\item zwei Verschlüsselungsmodelle
 		\begin{itemize}
-			\item Auflistung
-			\item Auflistung
+			\item Full Memory Encryption
+			\item Partial Memory Encryption
 		\end{itemize}
 	\end{itemize}
 	\vfill
@@ -110,31 +112,66 @@
 \end{frame}
 
 \subsection{AMD Secure Encrypted Virtualization}
-\begin{frame}{AMD Secure Encrypted Virtualization}
-	Text
+\begin{frame}{AMD Secure Encrypted Virtualization I}
 	\begin{itemize}
-		\item Auflistung\\ Umbruch
-		\item Auflistung
+		\item kombiniert AMD SME \& virtuelle Maschinen
+		\item AMD-V Architektur
+		\item Ziel: virtuelle Maschinen schützen
 		\begin{itemize}
-			\item Auflistung
-			\item Auflistung
+			\item physische Angriffe
+			\item Hypervisor-Angriffe
+			\item Angriffe anderer virtuellen Maschinen
+		\end{itemize}
+		\item keine Software-Modifikationen
+	\end{itemize}
+	% \todo[inline, size=\tiny]{genauer eingehen auf Architektur}
+	\vfill
+	\textit{\{\cite{kaplan, buhren}\}}
+\end{frame}
+
+\begin{frame}{AMD Secure Encrypted Virtualization II}
+	\begin{itemize}
+		% \item Architektur
+		% \begin{itemize}
+		% 	\item physische Angriffe
+		% 	\item Hypervisor-Angriffe
+		% 	\item Angriffe anderer virtuellen Maschinen
+		% \end{itemize}
+		%
+		\item Sicherheitsmodell
+		\begin{itemize}
+			\item isolierte Bereiche anstatt Ring-basiert
+			\item streng kontrollierte Kommunikationspfade zwischen Hypervisor \& Gast
+		\end{itemize}
+		%
+		\item Schwachstellen
+		\begin{itemize}
+			\item SEV-Plattform vortäuschen
+			\item Migrations- \& Debug-Override-Angriffe
 		\end{itemize}
 	\end{itemize}
+	\todo[inline, size=\tiny]{genauer eingehen auf Architektur?}
 	\vfill
 	\textit{\{\cite{kaplan, buhren}\}}
 \end{frame}
 
 \subsection{Intel SGX}
 \begin{frame}{Intel SGX}
-	Text
 	\begin{itemize}
-		\item Auflistung\\ Umbruch
-		\item Auflistung
+		\item x86 Prozessorarchitektur Erweiterung
+		\item Hardware-unterstützte Trusted Execution Environments (TEE) / Enklaven
+		\item Schutz vor physikalische Speicherzugriffe o.Ä.\\
+			Zugriffskontrollmechanismus
+		\item Hardware-basierte Memory Encryption Engine (MEE)
+		\item Datentransport zwischen Enklaven-Seiten-Cache (EPC) \& System-Speicher
+		\item Intel signierte Enklaven
 		\begin{itemize}
-			\item Auflistung
-			\item Auflistung
+			\item Provisioning Enclave
+			\item Provisioning Certification Enclave
+			\item Quoting Enclave
 		\end{itemize}
 	\end{itemize}
+	\todo[inline, size=\tiny]{Intel signierte Enklaven hier oder bei Remote Attestation vergleich?}
 	\vfill
 	\textit{\{\cite{costan, knauth, mofrad, swami}\}}
 \end{frame}
