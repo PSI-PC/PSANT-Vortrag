@@ -8,6 +8,12 @@
 
 %\grouplogo{ISAS_logo} 
 \usepackage{todonotes}
+\usepackage{xcolor}
+
+\definecolor{kitgreen}{RGB}{27,151,131}
+
+\newcommand{\foo}{\color{kitgreen}\hspace{-2.3pt}$\bullet$ \hspace{5pt}}
+
 % Beginn der Präsentation
 
 \title[AMD Secure Encrypted Virtualization]{AMD Secure Encrypted Virtualization}
@@ -38,77 +44,81 @@
 
 \subsection{Cloud-Computing}
 \begin{frame}{Cloud-Computing}
-	\begin{itemize}
-		\item Bereitstellung IT-Ressourcen
-		\item Modelle
+	\begin{minipage}{0.6\linewidth}
 		\begin{itemize}
-			\item Infrastructure as a Service
-			\item Platform as a Service
-			\item Software as a Service
+			\item Bereitstellung IT-Ressourcen
+			\item Modelle
+			\begin{itemize}
+				\item Infrastructure as a Service
+				\item Platform as a Service
+				\item Software as a Service
+			\end{itemize}
+			\item Sicherheit wichtig \(\rightarrow\) \textbf{Trusted} Cloud-Computing
 		\end{itemize}
-	\end{itemize}
-	% Sicherheit wichtig \(\Rightarrow\) \textbf{Trusted} Cloud-Computing
+		% Sicherheit wichtig \(\Rightarrow\) \textbf{Trusted} Cloud-Computing
 
-	\begin{greenblock}{}
-		\texttt{Sicherheit wichtig \(\Rightarrow\) \textbf{Trusted} Cloud-Computing}
-		\end{greenblock}
+		% \begin{greenblock}{}
+		% 	\texttt{Sicherheit wichtig \(\Rightarrow\) \textbf{Trusted} Cloud-Computing}
+		% 	\end{greenblock}
 
-	\vfill
-	\textit{\{\cite{bechtold, ibm, weis}\}}
+		\vspace{3ex}
+		\vfill
+		\small\textit{\{\cite{bechtold, ibm, weis}\}}
+		
+	\end{minipage}
+	\begin{minipage}{0.39\linewidth}
+		\begin{center}
+			\includegraphics[width=0.7\linewidth]{Bilder/cloud.jpg} \\
+			\small\textit{\{\cite{kaplan}\}}
+		\end{center}
+	\end{minipage}
 \end{frame}
 
 \subsection{Stand der Technik}
-\begin{frame}{Stand der Technik I}
-	\begin{itemize}
-		\item 1961 | Cloud-Computing Konzept (John McCarthy)
-		\item 1990er Ende | Kundenbeziehungsmanagement-Webseite (Firma Salesforce) | SaaS
-		\item 2006 | Amazon Web Services (Amazon) | IaaS
-		\item 2007 | Förderung Cloud-Computing an US Universitäten (Google \& IBM)
-		\item 2010 Juli | OpenStack (NASA, AMD, Intel \& Dell)
-		% \item 2012 | Gründung OpenStack Foundation
-		% \item 2011 Okt. | Paper zur Unterstützung von Cloud-Service-Anbieter(Cloud Security Alliance)
-		% \item 2015 | Veröffentlichung Intel Software Guard eXtensions
-		% \item 2016 Mai | Ankündigung AMD Secure Encrypted Virtualization
-		% \item 2018 | Veröffentlichung AMD Secure Encrypted Virtualization
-	\end{itemize}
+\begin{frame}{Stand der Technik}
+	\scalebox{1}{
+		\begin{tabular}{r |@{\foo} l}
+			
+			1961 & Cloud-Computing Konzept (John McCarthy)\\
+			Ende 1990er & Kundenbeziehungsmanagement-Webseite (Firma Salesforce) | SaaS\\
+			2006 & Amazon Web Services (Amazon) | IaaS\\
+			2015 & Veröffentlichung Intel Software Guard eXtensions\\
+			Mai 2016 & Ankündigung AMD Secure Encrypted Virtualization\\
+			2018 & Veröffentlichung AMD Secure Encrypted Virtualization\\
+			% \rulecolor{kitgreen}
+		\end{tabular}
+	}
 	\vfill
-	\textit{\{\cite{surbiryala, intel, amd}\}}
-\end{frame}
-\begin{frame}{Stand der Technik II}
-	\begin{itemize}
-		% \item 1961 | Cloud-Computing Konzept (John McCarthy)
-		% \item 1990er Ende | Kundenbeziehungsmanagement-Webseite (Firma Salesforce) | SaaS
-		% \item 2006 | Amazon Web Services (Amazon) | IaaS
-		% \item 2007 | Förderung Cloud-Computing an US Universitäten (Google \& IBM)
-		% \item 2010 Juli | OpenStack (NASA, AMD, Intel \& Dell)
-		\item 2012 | Gründung OpenStack Foundation
-		\item 2011 Okt. | Paper zur Unterstützung von Cloud-Service-Anbieter(Cloud Security Alliance)
-		\item 2015 | Veröffentlichung Intel Software Guard eXtensions
-		\item 2016 Mai | Ankündigung AMD Secure Encrypted Virtualization
-		\item 2018 | Veröffentlichung AMD Secure Encrypted Virtualization
-	\end{itemize}
-	\vfill
-	\textit{\{\cite{surbiryala, intel, amd}\}}
+	\small\textit{\{\cite{surbiryala, intel, amd}\}}
 \end{frame}
 
 
-\section{Hauptteil}
+\section{AMD}
 
 \subsection{AMD Secure Memory Encryption}
 \begin{frame}{AMD Secure Memory Encryption}
-	\begin{itemize}
-		\item Allzweckmechanismus zur Hauptspeicher-Verschlüsselung
-		\item Hardware-Bauteile in CPU-Architektur
-		\item Advanced Encryption Standard (AES) Modul
-		\item AMD Secure Prozessor \(\rightarrow\) Schlüssel
-		\item zwei Verschlüsselungsmodelle
+	\begin{minipage}{0.49\linewidth}
 		\begin{itemize}
-			\item Full Memory Encryption
-			\item Partial Memory Encryption
+			\item Allzweckmechanismus zur Hauptspeicher-Verschlüsselung
+			\item Hardware-Bauteile in CPU-Architektur
+			\item Advanced Encryption Standard (AES) Modul
+			\item AMD Secure Prozessor \(\rightarrow\) Schlüssel
+			\item zwei Verschlüsselungsmodelle
+			\begin{itemize}
+				\item Full Memory Encryption
+				\item Partial Memory Encryption
+			\end{itemize}
 		\end{itemize}
-	\end{itemize}
-	\vfill
-	\textit{\{\cite{kaplan}\}}
+		\vspace{3ex}
+		\vfill
+		\small\textit{\{\cite{kaplan}\}}
+	\end{minipage}
+	\begin{minipage}{0.5\linewidth}
+		\begin{center}
+			\includegraphics[width=\linewidth]{Bilder/AMD_SMESEV.jpg} \\
+			\small\textit{\{\cite{amd}\}}
+		\end{center}
+	\end{minipage}
 \end{frame}
 
 \subsection{AMD Secure Encrypted Virtualization}
@@ -126,34 +136,46 @@
 	\end{itemize}
 	% \todo[inline, size=\tiny]{genauer eingehen auf Architektur}
 	\vfill
-	\textit{\{\cite{kaplan, buhren}\}}
+	\small\textit{\{\cite{kaplan, buhren}\}}
 \end{frame}
 
 \begin{frame}{AMD Secure Encrypted Virtualization II}
-	\begin{itemize}
-		% \item Architektur
-		% \begin{itemize}
-		% 	\item physische Angriffe
-		% 	\item Hypervisor-Angriffe
-		% 	\item Angriffe anderer virtuellen Maschinen
-		% \end{itemize}
-		%
-		\item Sicherheitsmodell
+	\begin{minipage}{0.7\linewidth}
 		\begin{itemize}
-			\item isolierte Bereiche anstatt Ring-basiert
-			\item streng kontrollierte Kommunikationspfade zwischen Hypervisor \& Gast
+			% \item Architektur
+			% \begin{itemize}
+			% 	\item physische Angriffe
+			% 	\item Hypervisor-Angriffe
+			% 	\item Angriffe anderer virtuellen Maschinen
+			% \end{itemize}
+			%
+			\item Sicherheitsmodell
+			\begin{itemize}
+				\item isolierte Bereiche anstatt Ring-basiert
+				\item streng kontrollierte Kommunikationspfade zwischen Hypervisor \& Gast
+			\end{itemize}
+			%
+			\item Schwachstellen
+			\begin{itemize}
+				\item SEV-Plattform vortäuschen
+				\item Migrations- \& Debug-Override-Angriffe
+			\end{itemize}
 		\end{itemize}
-		%
-		\item Schwachstellen
-		\begin{itemize}
-			\item SEV-Plattform vortäuschen
-			\item Migrations- \& Debug-Override-Angriffe
-		\end{itemize}
-	\end{itemize}
-	\todo[inline, size=\tiny]{genauer eingehen auf Architektur?}
-	\vfill
-	\textit{\{\cite{kaplan, buhren}\}}
+		% \todo[inline, size=\tiny]{genauer eingehen auf Architektur?}
+		\vspace{3ex}
+		\vfill
+		\small\textit{\{\cite{kaplan, buhren}\}}
+	\end{minipage}
+	\begin{minipage}{0.29\linewidth}
+		\begin{center}
+			\includegraphics[width=0.65\linewidth]{Bilder/AMD_Guest_HV.jpg} \\
+			\small\textit{\{\cite{kaplan}\}}
+		\end{center}
+	\end{minipage}
 \end{frame}
+
+
+\section{Vergleich mit Intel SGX}
 
 \subsection{Intel SGX}
 \begin{frame}{Intel SGX}
@@ -164,39 +186,41 @@
 			Zugriffskontrollmechanismus
 		\item Hardware-basierte Memory Encryption Engine (MEE)
 		\item Datentransport zwischen Enklaven-Seiten-Cache (EPC) \& System-Speicher
-		\item Intel signierte Enklaven
-		\begin{itemize}
-			\item Provisioning Enclave
-			\item Provisioning Certification Enclave
-			\item Quoting Enclave
-		\end{itemize}
 	\end{itemize}
-	\todo[inline, size=\tiny]{Intel signierte Enklaven hier oder bei Remote Attestation vergleich?}
 	\vfill
-	\textit{\{\cite{costan, knauth, mofrad, swami}\}}
+	\small\textit{\{\cite{costan, knauth, mofrad, swami}\}}
 \end{frame}
 
-
-\section{Evaluation}
+\subsection{Funktion \& Anwendungsfälle | Sicherheit | Performance | Remote Attestation}
 
 % \subsection{Funktion \& Anwendungsfälle}
 \begin{frame}{Funktion \& Anwendungsfälle}
-	\begin{itemize}
-		\item Intel SGX
-		\begin{itemize}
-			\item Desktop- / Mobile-Prozessor
-			\item Mikro-Services / kleinere Apps
-			\item kleine Menge an sicherheits-sensitiven Daten
-		\end{itemize}
-		\item AMD SEV
-		\begin{itemize}
-			\item Server-Prozessor (AMD EPYC)\\
-			\item anspruchsvolle Anwendungen
-			\item viele Daten, kein höheres Maß an Sicherheit
-		\end{itemize}
-	\end{itemize}
+
+	\begin{tabular}[h]{c|c}
+		\color{kitgreen} AMD SEV & \color{kitgreen}Intel SGX \\
+		\hline
+		Server-Prozessor (AMD EPYC) & Desktop- / Mobile-Prozessor \\
+		anspruchsvolle Anwendungen & Mikro-Services / kleinere Apps \\
+		viele Daten, kein höheres Maß an Sicherheit & kleine Menge an sicherheits-sensitiven Daten \\
+		
+	\end{tabular}
+
+	% \begin{itemize}
+	% 	\item Intel SGX
+	% 	\begin{itemize}
+	% 		\item Desktop- / Mobile-Prozessor
+	% 		\item Mikro-Services / kleinere Apps
+	% 		\item kleine Menge an sicherheits-sensitiven Daten
+	% 	\end{itemize}
+	% 	\item AMD SEV
+	% 	\begin{itemize}
+	% 		\item Server-Prozessor (AMD EPYC)\\
+	% 		\item anspruchsvolle Anwendungen
+	% 		\item viele Daten, kein höheres Maß an Sicherheit
+	% 	\end{itemize}
+	% \end{itemize}
 	\vfill
-	\textit{\{\cite{mofrad}\}}
+	\small\textit{\{\cite{mofrad}\}}
 \end{frame}
 
 % \subsection{Sicherheit}
@@ -224,24 +248,34 @@
 		\end{itemize}
 	\end{itemize}
 	\vfill
-	\textit{\{\cite{mofrad}\}}
+	\small\textit{\{\cite{mofrad}\}}
 \end{frame}
 
 % \subsection{Performance}
 \begin{frame}{Performance}
-	\begin{itemize}
-		\item verschlüsselter Speicher, großer Pufferspeicher \\ \(\rightarrow\) AMD schneller
-		\item Einsatz AMD SEV \(\rightarrow\) Leistungseinbuße \begin{math} \sim \end{math}1,9x
-		\item Einsatz Intel SGX  \(\rightarrow\) Leistungseinbuße \begin{math} \sim \end{math}8,2x
-	\end{itemize}
-	% komplexer Workload mit großem Pufferspeicher \(\Rightarrow\) \textbf{AMD übertrifft Intel}
-
-	\begin{greenblock}{}
-		\texttt{komplexer Workload mit großem Pufferspeicher \(\Rightarrow\) \textbf{AMD übertrifft Intel}}
-		\end{greenblock}
-	
-	\vfill
-	\textit{\{\cite{mofrad}\}}
+	\begin{minipage}{0.49\linewidth}
+		\begin{itemize}
+			\item verschlüsselter Speicher, großer Pufferspeicher \\ \(\rightarrow\) AMD schneller
+			\item Einsatz AMD SEV \(\rightarrow\) Leistungseinbuße \begin{math} \sim \end{math}1,9x
+			\item Einsatz Intel SGX  \(\rightarrow\) Leistungseinbuße \begin{math} \sim \end{math}8,2x
+		\end{itemize}
+		\vfill
+		\color{kitgreen}
+		{komplexer Workload mit großem Pufferspeicher\\ \(\rightarrow\) \textbf{AMD übertrifft Intel}}
+		% \begin{greenblock}{}
+		% 	\texttt{komplexer Workload mit großem Pufferspeicher \(\Rightarrow\) \textbf{AMD übertrifft Intel}}
+		% 	\end{greenblock}
+		\color{black}\\
+		\vspace{3ex}
+		\vfill
+		\small\textit{\{\cite{mofrad}\}}
+	\end{minipage}
+	\begin{minipage}{0.5\linewidth}
+		\begin{center}
+			\includegraphics[width=\linewidth]{Bilder/performance.jpg} \\
+			\small\textit{\{\cite{mofrad}\}}
+		\end{center}
+	\end{minipage}
 \end{frame}
 
 % \subsection{Remote Attestation}
@@ -267,9 +301,9 @@
 				\(\rightarrow\) Authentizität, Integrität \& Vertraulichkeit der Kommunikation
 		\end{itemize}
 	\end{itemize}
-	\todo[inline, size=\tiny]{SEV einsatz von schlüsseln...?}
+	% \todo[inline, size=\tiny]{SEV einsatz von schlüsseln...?}
 	\vfill
-	\textit{\{\cite{knauth, swami, buhren}\}}
+	\small\textit{\{\cite{knauth, swami, buhren}\}}
 \end{frame}
 
 % \subsection{Schlussfolgerung}
@@ -279,14 +313,33 @@
 		\begin{itemize}
 			\item starker Speicherintegritätsschutz
 		\end{itemize}
-			\(\Rightarrow\) kleine aber streng sicherheitskritische Applikationen
+			\(\rightarrow\) kleine aber streng sicherheitskritische Applikationen
 		\item AMD SEV
 		\begin{itemize}
 			\item kein Speicherintegritätsschutz
 			\item Bereitstellung großer Mengen an Ressourcen für Applikationen
 			\item bessere Performance als Intel SGX
 		\end{itemize}
-			\(\Rightarrow\) komplexe \& oder ältere Anwendungen/Dienstleistungen
+			\(\rightarrow\) komplexe \& oder ältere Anwendungen / Dienstleistungen
+	\end{itemize}
+\end{frame}
+
+\section{Schluss}
+\begin{frame}{Zusammenfassung}
+	\begin{itemize}
+		\item Trusted Cloud-Computing wird seit 1990er immer wichtiger
+		\item AMD Secure Encrypted Virtualization (SEV)
+		\begin{itemize}
+			\item Release 2018 | AMD EPYC Server-Prozessor
+			\item komplexe \& oder ältere Anwendungen / Dienstleistungen\\
+				\(\rightarrow\) Cloud-Computing mit virtuellen Maschinen
+		\end{itemize}
+		\item Intel Software Guard eXtensions (SGX)
+		\begin{itemize}
+			\item Release 2015 | Skylake Desktop-Prozessor
+			\item kleine aber streng sicherheitskritische Applikationen\\
+				\(\rightarrow\) Desktop-Applikationen
+		\end{itemize}
 	\end{itemize}
 \end{frame}
 

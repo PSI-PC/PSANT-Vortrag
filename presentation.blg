@@ -1,27 +1,27 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'presentation.blg'
-[112] biber-MSWIN64:340> INFO - === 
-[144] Biber.pm:418> INFO - Reading 'presentation.bcf'
-[265] Biber.pm:978> INFO - Found 12 citekeys in bib section 0
-[281] Biber.pm:4401> INFO - Processing section 0
-[293] Biber.pm:4592> INFO - Looking for bibtex file 'presentation.bib' for section 0
-[339] bibtex.pm:1713> INFO - LaTeX decoding ...
-[361] bibtex.pm:1518> INFO - Found BibTeX data source 'presentation.bib'
-[475] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[475] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[475] Biber.pm:4221> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[475] Biber.pm:4227> INFO - No sort tailoring available for locale 'de-DE'
-[492] bbl.pm:654> INFO - Writing 'presentation.bbl' with encoding 'UTF-8'
-[499] bbl.pm:757> INFO - Output to presentation.bbl
-[499] Biber.pm:130> WARN - legacy year field 'Zugriff: 12/2022' in entry 'ibm' is not an integer - this will probably not sort properly.
-[499] Biber.pm:130> WARN - legacy year field '2022, Zugriff: 11/2022' in entry 'intel' is not an integer - this will probably not sort properly.
-[499] Biber.pm:130> WARN - legacy year field '2020, Zugriff: 11/2022' in entry 'amd' is not an integer - this will probably not sort properly.
-[499] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_mncH\34d5c13b83743c835fb1206c50156c75_1576.utf8, line 77, warning: 70 characters of junk seen at toplevel
-[499] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_mncH\34d5c13b83743c835fb1206c50156c75_1576.utf8, line 86, warning: 167 characters of junk seen at toplevel
-[499] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_mncH\34d5c13b83743c835fb1206c50156c75_1576.utf8, line 93, warning: 163 characters of junk seen at toplevel
-[499] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_mncH\34d5c13b83743c835fb1206c50156c75_1576.utf8, line 101, warning: 168 characters of junk seen at toplevel
-[499] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_mncH\34d5c13b83743c835fb1206c50156c75_1576.utf8, line 108, warning: 39 characters of junk seen at toplevel
-[499] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_mncH\34d5c13b83743c835fb1206c50156c75_1576.utf8, line 119, warning: 170 characters of junk seen at toplevel
-[499] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_mncH\34d5c13b83743c835fb1206c50156c75_1576.utf8, line 146, warning: 67 characters of junk seen at toplevel
-[499] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_mncH\34d5c13b83743c835fb1206c50156c75_1576.utf8, line 157, warning: 84 characters of junk seen at toplevel
-[499] Biber.pm:132> INFO - WARNINGS: 11
+[120] biber-MSWIN64:340> INFO - === 
+[155] Biber.pm:418> INFO - Reading 'presentation.bcf'
+[278] Biber.pm:978> INFO - Found 12 citekeys in bib section 0
+[294] Biber.pm:4401> INFO - Processing section 0
+[306] Biber.pm:4592> INFO - Looking for bibtex file 'presentation.bib' for section 0
+[350] bibtex.pm:1713> INFO - LaTeX decoding ...
+[374] bibtex.pm:1518> INFO - Found BibTeX data source 'presentation.bib'
+[490] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[490] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[490] Biber.pm:4221> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[490] Biber.pm:4227> INFO - No sort tailoring available for locale 'de-DE'
+[508] bbl.pm:654> INFO - Writing 'presentation.bbl' with encoding 'UTF-8'
+[516] bbl.pm:757> INFO - Output to presentation.bbl
+[516] Biber.pm:130> WARN - legacy year field 'Zugriff: 12/2022' in entry 'ibm' is not an integer - this will probably not sort properly.
+[516] Biber.pm:130> WARN - legacy year field '2022, Zugriff: 11/2022' in entry 'intel' is not an integer - this will probably not sort properly.
+[516] Biber.pm:130> WARN - legacy year field '2020, Zugriff: 11/2022' in entry 'amd' is not an integer - this will probably not sort properly.
+[516] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_EyvM\34d5c13b83743c835fb1206c50156c75_820.utf8, line 77, warning: 70 characters of junk seen at toplevel
+[516] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_EyvM\34d5c13b83743c835fb1206c50156c75_820.utf8, line 86, warning: 167 characters of junk seen at toplevel
+[516] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_EyvM\34d5c13b83743c835fb1206c50156c75_820.utf8, line 93, warning: 163 characters of junk seen at toplevel
+[516] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_EyvM\34d5c13b83743c835fb1206c50156c75_820.utf8, line 101, warning: 168 characters of junk seen at toplevel
+[516] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_EyvM\34d5c13b83743c835fb1206c50156c75_820.utf8, line 108, warning: 39 characters of junk seen at toplevel
+[516] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_EyvM\34d5c13b83743c835fb1206c50156c75_820.utf8, line 119, warning: 170 characters of junk seen at toplevel
+[516] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_EyvM\34d5c13b83743c835fb1206c50156c75_820.utf8, line 146, warning: 67 characters of junk seen at toplevel
+[516] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_EyvM\34d5c13b83743c835fb1206c50156c75_820.utf8, line 157, warning: 84 characters of junk seen at toplevel
+[516] Biber.pm:132> INFO - WARNINGS: 11
