@@ -67,10 +67,15 @@
 		
 	\end{minipage}
 	\begin{minipage}{0.39\linewidth}
-		\begin{center}
-			\includegraphics[width=0.7\linewidth]{Bilder/cloud.jpg} \\
-			\small\textit{\{\cite{kaplan}\}}
-		\end{center}
+		% \begin{center}
+		% 	\includegraphics[width=0.7\linewidth]{Bilder/cloud.jpg} \\
+		% 	\small\textit{\{\cite{kaplan}\}}
+		% \end{center}
+		\begin{figure}[!h]
+			\centering
+			\includegraphics[width=0.7\linewidth]{Bilder/cloud.jpg}
+			\caption{Verschlüsselte VMs in der Cloud \textit{\{\cite{kaplan}\}}. }
+		\end{figure}
 	\end{minipage}
 \end{frame}
 
@@ -114,10 +119,15 @@
 		\small\textit{\{\cite{kaplan}\}}
 	\end{minipage}
 	\begin{minipage}{0.5\linewidth}
-		\begin{center}
-			\includegraphics[width=\linewidth]{Bilder/AMD_SMESEV.jpg} \\
-			\small\textit{\{\cite{amd}\}}
-		\end{center}
+		% \begin{center}
+		% 	\includegraphics[width=\linewidth]{Bilder/AMD_SMESEV.jpg} \\
+		% 	\small\textit{\{\cite{amd}\}}
+		% \end{center}
+		\begin{figure}[!h]
+			\centering
+			\includegraphics[width=\linewidth]{Bilder/AMD_SMESEV.jpg}
+			\caption{Speicher-Verschlüsselung durch AMD Secure Prozessor bei AMD SME \textit{\{\cite{amd}\}}. }
+		\end{figure}
 	\end{minipage}
 \end{frame}
 
@@ -140,7 +150,7 @@
 \end{frame}
 
 \begin{frame}{AMD Secure Encrypted Virtualization II}
-	\begin{minipage}{0.7\linewidth}
+	\begin{minipage}{0.6\linewidth}
 		\begin{itemize}
 			% \item Architektur
 			% \begin{itemize}
@@ -166,11 +176,16 @@
 		\vfill
 		\small\textit{\{\cite{kaplan, buhren}\}}
 	\end{minipage}
-	\begin{minipage}{0.29\linewidth}
-		\begin{center}
-			\includegraphics[width=0.65\linewidth]{Bilder/AMD_Guest_HV.jpg} \\
-			\small\textit{\{\cite{kaplan}\}}
-		\end{center}
+	\begin{minipage}{0.39\linewidth}
+		\begin{figure}[!h]
+			\centering
+			\includegraphics[width=0.45\linewidth]{Bilder/AMD_Guest_HV.jpg}
+			\caption{AMD SEV Sicherheitsmodell \textit{\{\cite{kaplan}\}}. }
+		\end{figure}
+		% \begin{center}
+		% 	\includegraphics[width=0.65\linewidth]{Bilder/AMD_Guest_HV.jpg} \\
+		% 	\small\textit{\{\cite{kaplan}\}}
+		% \end{center}
 	\end{minipage}
 \end{frame}
 
@@ -228,21 +243,22 @@
 	\begin{itemize}
 		\item Intel SGX
 		\begin{itemize}
-			\item Advanced Encryption Standard
+			\item Advanced Encryption Standard (AES)
 				\(\rightarrow\) Speicherintegritätsschutz
-			\item Betriebssystem (OS) übernimmt System Calls
-				\(\rightarrow\) Denial of Service Attacke möglich\\
-				(Enklaven-Prozesse von OS verweigert oder eliminiert)
-			\item Leistungssteigerung durch Multi-Threading
-				\(\rightarrow\) Kontrollfluss Verlust möglich
+			\item Denial of Service Angriffe möglich
+			% \item Betriebssystem (OS) übernimmt System Calls
+			% 	\(\rightarrow\) Denial of Service Attacke möglich\\
+			% 	(Enklaven-Prozesse von OS verweigert oder eliminiert)
+			% \item Leistungssteigerung durch Multi-Threading
+			% 	\(\rightarrow\) Kontrollfluss Verlust möglich
 			\item Cache-Zugriffsmessungen \(\rightarrow\) Enklaven-Geheimnisse
 			\item Seitenkanalangriffe
 		\end{itemize}
 		\item AMD SEV
 		\begin{itemize}
-			\item Memory Encryption Engine im Electronic Codebook (ECB) Modus 
-			\item Data-Leaks durch ECB \(\rightarrow\) AMD Algorithmus 
-			\item kein Speicherintegritätsschutz
+			\item Memory Encryption Engine nutzt AES im Electronic Codebook (ECB) Modus \\
+			% \item Data-Leaks durch ECB \(\rightarrow\) AMD Algorithmus 
+				\(\rightarrow\) kein Speicherintegritätsschutz
 			\item Manipulation von Speicherseiten / DOS-Angriffe durch höher privilegierten Hypervisor\\
 			\(\rightarrow\) VM-spezifischen AMD Secure Prozessor Schlüssel
 		\end{itemize}
@@ -271,10 +287,11 @@
 		\small\textit{\{\cite{mofrad}\}}
 	\end{minipage}
 	\begin{minipage}{0.5\linewidth}
-		\begin{center}
-			\includegraphics[width=\linewidth]{Bilder/performance.jpg} \\
-			\small\textit{\{\cite{mofrad}\}}
-		\end{center}
+		\begin{figure}[!h]
+			\centering
+			\includegraphics[width=\textwidth]{Bilder/performance.jpg}
+			\caption{Vergleich Leistungssenkung: AMD SEV vs Intel SGX \textit{\{\cite{mofrad}\}}. }
+		\end{figure}
 	\end{minipage}
 \end{frame}
 
