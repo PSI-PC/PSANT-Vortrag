@@ -1,27 +1,28 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'presentation.blg'
-[117] biber-MSWIN64:340> INFO - === 
-[150] Biber.pm:418> INFO - Reading 'presentation.bcf'
-[274] Biber.pm:978> INFO - Found 12 citekeys in bib section 0
-[291] Biber.pm:4401> INFO - Processing section 0
-[303] Biber.pm:4592> INFO - Looking for bibtex file 'presentation.bib' for section 0
-[348] bibtex.pm:1713> INFO - LaTeX decoding ...
-[371] bibtex.pm:1518> INFO - Found BibTeX data source 'presentation.bib'
-[485] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[485] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[485] Biber.pm:4221> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[485] Biber.pm:4227> INFO - No sort tailoring available for locale 'de-DE'
-[503] bbl.pm:654> INFO - Writing 'presentation.bbl' with encoding 'UTF-8'
-[511] bbl.pm:757> INFO - Output to presentation.bbl
-[511] Biber.pm:130> WARN - legacy year field 'Zugriff: 12/2022' in entry 'ibm' is not an integer - this will probably not sort properly.
-[511] Biber.pm:130> WARN - legacy year field '2022, Zugriff: 11/2022' in entry 'intel' is not an integer - this will probably not sort properly.
-[511] Biber.pm:130> WARN - legacy year field '2020, Zugriff: 11/2022' in entry 'amd' is not an integer - this will probably not sort properly.
-[511] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_N4Fz\34d5c13b83743c835fb1206c50156c75_16800.utf8, line 77, warning: 70 characters of junk seen at toplevel
-[511] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_N4Fz\34d5c13b83743c835fb1206c50156c75_16800.utf8, line 86, warning: 167 characters of junk seen at toplevel
-[511] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_N4Fz\34d5c13b83743c835fb1206c50156c75_16800.utf8, line 93, warning: 163 characters of junk seen at toplevel
-[511] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_N4Fz\34d5c13b83743c835fb1206c50156c75_16800.utf8, line 101, warning: 168 characters of junk seen at toplevel
-[511] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_N4Fz\34d5c13b83743c835fb1206c50156c75_16800.utf8, line 108, warning: 39 characters of junk seen at toplevel
-[511] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_N4Fz\34d5c13b83743c835fb1206c50156c75_16800.utf8, line 119, warning: 170 characters of junk seen at toplevel
-[511] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_N4Fz\34d5c13b83743c835fb1206c50156c75_16800.utf8, line 146, warning: 67 characters of junk seen at toplevel
-[511] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_N4Fz\34d5c13b83743c835fb1206c50156c75_16800.utf8, line 157, warning: 84 characters of junk seen at toplevel
-[512] Biber.pm:132> INFO - WARNINGS: 11
+[126] biber-MSWIN64:340> INFO - === 
+[171] Biber.pm:418> INFO - Reading 'presentation.bcf'
+[334] Biber.pm:978> INFO - Found 13 citekeys in bib section 0
+[356] Biber.pm:4401> INFO - Processing section 0
+[369] Biber.pm:4592> INFO - Looking for bibtex file 'presentation.bib' for section 0
+[415] bibtex.pm:1713> INFO - LaTeX decoding ...
+[438] bibtex.pm:1518> INFO - Found BibTeX data source 'presentation.bib'
+[563] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[563] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[563] Biber.pm:4221> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[563] Biber.pm:4227> INFO - No sort tailoring available for locale 'de-DE'
+[582] bbl.pm:654> INFO - Writing 'presentation.bbl' with encoding 'UTF-8'
+[590] bbl.pm:757> INFO - Output to presentation.bbl
+[591] Biber.pm:130> WARN - legacy year field 'Zugriff: 12/2022' in entry 'ibm' is not an integer - this will probably not sort properly.
+[591] Biber.pm:130> WARN - legacy year field '2022, Zugriff: 11/2022' in entry 'intel' is not an integer - this will probably not sort properly.
+[591] Biber.pm:130> WARN - legacy year field '2020, Zugriff: 11/2022' in entry 'amd' is not an integer - this will probably not sort properly.
+[591] Biber.pm:130> WARN - legacy year field '08/2021, Zugriff: 01/2023' in entry 'computerbase' is not an integer - this will probably not sort properly.
+[591] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_l3r8\34d5c13b83743c835fb1206c50156c75_12696.utf8, line 78, warning: 70 characters of junk seen at toplevel
+[591] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_l3r8\34d5c13b83743c835fb1206c50156c75_12696.utf8, line 95, warning: 167 characters of junk seen at toplevel
+[591] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_l3r8\34d5c13b83743c835fb1206c50156c75_12696.utf8, line 102, warning: 163 characters of junk seen at toplevel
+[591] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_l3r8\34d5c13b83743c835fb1206c50156c75_12696.utf8, line 110, warning: 168 characters of junk seen at toplevel
+[591] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_l3r8\34d5c13b83743c835fb1206c50156c75_12696.utf8, line 117, warning: 39 characters of junk seen at toplevel
+[591] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_l3r8\34d5c13b83743c835fb1206c50156c75_12696.utf8, line 128, warning: 170 characters of junk seen at toplevel
+[591] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_l3r8\34d5c13b83743c835fb1206c50156c75_12696.utf8, line 155, warning: 67 characters of junk seen at toplevel
+[591] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Pasca\AppData\Local\Temp\biber_tmp_l3r8\34d5c13b83743c835fb1206c50156c75_12696.utf8, line 166, warning: 84 characters of junk seen at toplevel
+[591] Biber.pm:132> INFO - WARNINGS: 12

@@ -9,3 +9,5 @@
 \beamer@subsectionintoc {3}{1}{Intel SGX}{8}{0}{3}
 \beamer@subsectionintoc {3}{2}{Funktion \& Anwendungsfälle | Sicherheit | Performance | Remote Attestation}{9}{0}{3}
 \beamer@sectionintoc {4}{Schluss}{14}{0}{4}
+\beamer@subsectionintoc {4}{1}{Zusammenfassung}{14}{0}{4}
+\beamer@subsectionintoc {4}{2}{Ausblick}{15}{0}{4}

@@ -2378,6 +2378,7 @@
     <bcf:citekey order="18" intorder="1">knauth</bcf:citekey>
     <bcf:citekey order="18" intorder="2">swami</bcf:citekey>
     <bcf:citekey order="18" intorder="3">buhren</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">computerbase</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
