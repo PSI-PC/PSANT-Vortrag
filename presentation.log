@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.25)  17 JAN 2023 22:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.25)  19 JAN 2023 18:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1311,17 +1311,17 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [4
 
 ]
-<Bilder/AMD_SMESEV.jpg, id=213, 626.34pt x 374.39874pt>
+<Bilder/AMD_SMESEV.jpg, id=213, 522.95375pt x 326.21875pt>
 File: Bilder/AMD_SMESEV.jpg Graphic file (type jpg)
 <use Bilder/AMD_SMESEV.jpg>
 Package pdftex.def Info: Bilder/AMD_SMESEV.jpg  used on input line 132.
-(pdftex.def)             Requested size: 222.07387pt x 132.74394pt.
+(pdftex.def)             Requested size: 222.07387pt x 138.52913pt.
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
 Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 132.
 (pdftex.def)             Requested size: 28.45274pt x 13.09813pt.
 
-Overfull \vbox (4.88545pt too high) detected at line 132
+Overfull \vbox (10.67064pt too high) detected at line 132
  []
 
 
@@ -1332,9 +1332,14 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [5
 
  <./Bilder/AMD_SMESEV.jpg>]
+<Bilder/sme_vm_sev.png, id=240, 441.65pt x 456.70625pt>
+File: Bilder/sme_vm_sev.png Graphic file (type png)
+<use Bilder/sme_vm_sev.png>
+Package pdftex.def Info: Bilder/sme_vm_sev.png  used on input line 164.
+(pdftex.def)             Requested size: 121.2516pt x 125.38205pt.
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 150.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 164.
 (pdftex.def)             Requested size: 28.45274pt x 13.09813pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1343,18 +1348,18 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [6
 
-]
-<Bilder/AMD_Guest_HV.jpg, id=264, 292.84406pt x 527.72156pt>
+ <./Bilder/sme_vm_sev.png>]
+<Bilder/AMD_Guest_HV.jpg, id=266, 292.84406pt x 527.72156pt>
 File: Bilder/AMD_Guest_HV.jpg Graphic file (type jpg)
 <use Bilder/AMD_Guest_HV.jpg>
-Package pdftex.def Info: Bilder/AMD_Guest_HV.jpg  used on input line 190.
+Package pdftex.def Info: Bilder/AMD_Guest_HV.jpg  used on input line 204.
 (pdftex.def)             Requested size: 77.94727pt x 140.46558pt.
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 190.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 204.
 (pdftex.def)             Requested size: 28.45274pt x 13.09813pt.
 
-Overfull \vbox (1.50768pt too high) detected at line 190
+Overfull \vbox (1.50768pt too high) detected at line 204
  []
 
 
@@ -1365,10 +1370,19 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [7
 
  <./Bilder/AMD_Guest_HV.jpg>]
+<Bilder/Intel_sgx_enclave.png, id=295, 182.18062pt x 382.42876pt>
+File: Bilder/Intel_sgx_enclave.png Graphic file (type png)
+<use Bilder/Intel_sgx_enclave.png>
+Package pdftex.def Info: Bilder/Intel_sgx_enclave.png  used on input line 235.
+(pdftex.def)             Requested size: 68.40031pt x 143.57965pt.
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 207.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 235.
 (pdftex.def)             Requested size: 28.45274pt x 13.09813pt.
+
+Overfull \vbox (4.50168pt too high) detected at line 235
+ []
+
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  [][] 
@@ -1376,10 +1390,10 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [8
 
-]
+ <./Bilder/Intel_sgx_enclave.png>]
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 239.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 269.
 (pdftex.def)             Requested size: 28.45274pt x 13.09813pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1390,14 +1404,14 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 268.
+(Font)              scaled to size 5.51999pt on input line 298.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 268.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 298.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 5.51999pt on input line 268.
+(Font)              scaled to size 5.51999pt on input line 298.
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 268.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 298.
 (pdftex.def)             Requested size: 28.45274pt x 13.09813pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1407,14 +1421,14 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [10
 
 ]
-<Bilder/performance.jpg, id=364, 643.6547pt x 362.10281pt>
+<Bilder/performance.jpg, id=371, 643.6547pt x 362.10281pt>
 File: Bilder/performance.jpg Graphic file (type jpg)
 <use Bilder/performance.jpg>
-Package pdftex.def Info: Bilder/performance.jpg  used on input line 296.
+Package pdftex.def Info: Bilder/performance.jpg  used on input line 326.
 (pdftex.def)             Requested size: 222.07387pt x 124.93112pt.
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 296.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 326.
 (pdftex.def)             Requested size: 28.45274pt x 13.09813pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1425,10 +1439,10 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
  <./Bilder/performance.jpg>]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 324.
+(Font)              scaled to size 7.35999pt on input line 354.
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 324.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 354.
 (pdftex.def)             Requested size: 28.45274pt x 13.09813pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1440,7 +1454,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 342.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 372.
 (pdftex.def)             Requested size: 28.45274pt x 13.09813pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1452,7 +1466,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 362.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 392.
 (pdftex.def)             Requested size: 28.45274pt x 13.09813pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1464,7 +1478,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 377.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 408.
 (pdftex.def)             Requested size: 28.45274pt x 13.09813pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1476,32 +1490,34 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \c@framenumbervorappendix=\count493
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 9.19998pt on input line 502.
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 502.
+(Font)              scaled to size 9.19998pt on input line 533.
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 533.
  (C:\Users\Pasca\AppData\Local\Programs\MiKTeX\tex/latex/bera\t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 7.79999pt on input line 502.
+(Font)              scaled to size 7.79999pt on input line 533.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 502.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 533.
  (C:\Users\Pasca\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <10> not available
-(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 502.
+(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 533.
 LaTeX Font Info:    Font shape `TS1/phv/m/sl' will be
-(Font)              scaled to size 9.19998pt on input line 502.
+(Font)              scaled to size 9.19998pt on input line 533.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 533.
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 502.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 533.
 (pdftex.def)             Requested size: 28.45274pt x 13.09813pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1513,7 +1529,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 502.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 533.
 (pdftex.def)             Requested size: 28.45274pt x 13.09813pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1526,7 +1542,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 502.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 533.
 (pdftex.def)             Requested size: 28.45274pt x 13.09813pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1534,6 +1550,19 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [18
+
+
+]
+File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 533.
+(pdftex.def)             Requested size: 28.45274pt x 13.09813pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][] 
+ []
+
+[19
 
 
 ]
@@ -1554,17 +1583,17 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37871 strings out of 475385
- 762342 string characters out of 2776906
- 1525009 words of memory out of 3000000
- 58310 multiletter control sequences out of 15000+600000
- 536543 words of font info for 177 fonts, out of 8000000 for 9000
+ 37901 strings out of 475385
+ 763029 string characters out of 2776906
+ 1524072 words of memory out of 3000000
+ 58329 multiletter control sequences out of 15000+600000
+ 537036 words of font info for 181 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  142i,19n,136p,2436b,2455s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Pasca/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Pasca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Pasca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Pasca/AppData/Local/Programs/MiKTeX/fonts/type1/bera/fvmr8a.pfb><C:/Users/Pasca/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Pasca/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Pasca/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on presentation.pdf (18 pages, 467240 bytes).
+Output written on presentation.pdf (19 pages, 483163 bytes).
 PDF statistics:
- 554 PDF objects out of 1000 (max. 8388607)
- 64 named destinations out of 1000 (max. 500000)
- 72904 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 571 PDF objects out of 1000 (max. 8388607)
+ 67 named destinations out of 1000 (max. 500000)
+ 74962 words of extra memory for PDF output out of 89155 (max. 10000000)
 

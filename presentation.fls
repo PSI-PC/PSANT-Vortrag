@@ -1774,6 +1774,13 @@ INPUT .\Bilder\AMD_SMESEV.jpg
 INPUT .\logos\kitlogo_de_rgb.pdf
 INPUT logos\kitlogo_de_rgb.pdf
 INPUT .\logos\kitlogo_de_rgb.pdf
+INPUT .\Bilder\sme_vm_sev.png
+INPUT .\Bilder\sme_vm_sev.png
+INPUT Bilder\sme_vm_sev.png
+INPUT .\Bilder\sme_vm_sev.png
+INPUT .\Bilder\sme_vm_sev.png
+INPUT .\Bilder\sme_vm_sev.png
+INPUT .\Bilder\sme_vm_sev.png
 INPUT .\logos\kitlogo_de_rgb.pdf
 INPUT logos\kitlogo_de_rgb.pdf
 INPUT .\logos\kitlogo_de_rgb.pdf
@@ -1787,6 +1794,13 @@ INPUT .\Bilder\AMD_Guest_HV.jpg
 INPUT .\logos\kitlogo_de_rgb.pdf
 INPUT logos\kitlogo_de_rgb.pdf
 INPUT .\logos\kitlogo_de_rgb.pdf
+INPUT .\Bilder\Intel_sgx_enclave.png
+INPUT .\Bilder\Intel_sgx_enclave.png
+INPUT Bilder\Intel_sgx_enclave.png
+INPUT .\Bilder\Intel_sgx_enclave.png
+INPUT .\Bilder\Intel_sgx_enclave.png
+INPUT .\Bilder\Intel_sgx_enclave.png
+INPUT .\Bilder\Intel_sgx_enclave.png
 INPUT .\logos\kitlogo_de_rgb.pdf
 INPUT logos\kitlogo_de_rgb.pdf
 INPUT .\logos\kitlogo_de_rgb.pdf
@@ -1846,6 +1860,7 @@ INPUT C:\Users\Pasca\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1phv.fd
 INPUT C:\Users\Pasca\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1phv.fd
 INPUT C:\Users\Pasca\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1phv.fd
 INPUT C:\Users\Pasca\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8c.tfm
+INPUT C:\Users\Pasca\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8c.tfm
 INPUT .\logos\kitlogo_de_rgb.pdf
 INPUT logos\kitlogo_de_rgb.pdf
 INPUT .\logos\kitlogo_de_rgb.pdf
@@ -1861,6 +1876,10 @@ INPUT C:\Users\Pasca\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro
 INPUT .\logos\kitlogo_de_rgb.pdf
 INPUT logos\kitlogo_de_rgb.pdf
 INPUT .\logos\kitlogo_de_rgb.pdf
+INPUT .\logos\kitlogo_de_rgb.pdf
+INPUT logos\kitlogo_de_rgb.pdf
+INPUT .\logos\kitlogo_de_rgb.pdf
+INPUT C:\Users\Pasca\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8c.vf
 OUTPUT presentation.nav
 OUTPUT presentation.toc
 OUTPUT presentation.snm

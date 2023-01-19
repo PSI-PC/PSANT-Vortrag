@@ -520,6 +520,61 @@
       \verb https://eprint.iacr.org/2017/736
       \endverb
     \endentry
+    \entry{intel_sgx_enclave}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8ccb4b55d00149185e934d9cfa0b508f}{%
+           family={Xing},
+           familyi={X\bibinitperiod},
+           given={Bin\bibnamedelima Cedric},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cfbda3e5c0d5400e8be979ab5231f0bf}{%
+           family={Shanahan},
+           familyi={S\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=036a9db1de9fac2909f9dab5abc5ee38}{%
+           family={Leslie-Hurd},
+           familyi={L\bibinithyphendelim H\bibinitperiod},
+           given={Rebekah},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Seoul, Republic of Korea}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{e50171c5e8a8779c872a2f891904e2e1}
+      \strng{fullhash}{e50171c5e8a8779c872a2f891904e2e1}
+      \strng{bibnamehash}{e50171c5e8a8779c872a2f891904e2e1}
+      \strng{authorbibnamehash}{e50171c5e8a8779c872a2f891904e2e1}
+      \strng{authornamehash}{e50171c5e8a8779c872a2f891904e2e1}
+      \strng{authorfullhash}{e50171c5e8a8779c872a2f891904e2e1}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Intel® Software Guard Extensions (Intel® SGX) SGX2 extends the Intel® Software Guard Extensions (SGX) instruction set and enables software developers to dynamically manage memory within the SGX environment. This paper reviews the current SGX Software RunTime Environment and proposes additions to the framework which will allow developers to benefit from features enabled by SGX2 such as dynamic heap management, stack expansion, and thread context creation.}
+      \field{booktitle}{Proceedings of the Hardware and Architectural Support for Security and Privacy 2016}
+      \field{isbn}{9781450347693}
+      \field{series}{HASP 2016}
+      \field{title}{Intel® Software Guard Extensions (Intel® SGX) Software Support for Dynamic Memory Allocation inside an Enclave}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1145/2948618.2954330
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/2948618.2954330
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/2948618.2954330
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

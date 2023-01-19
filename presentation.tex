@@ -108,7 +108,7 @@
 			\item Hardware-Bauteile in CPU-Architektur
 			\item Advanced Encryption Standard (AES) Modul
 			\item AMD Secure Prozessor \(\rightarrow\) Schlüssel
-			\item zwei Verschlüsselungsmodelle
+			\item Zwei Verschlüsselungsmodelle
 			\begin{itemize}
 				\item Full Memory Encryption
 				\item Partial Memory Encryption
@@ -133,20 +133,34 @@
 
 \subsection{AMD Secure Encrypted Virtualization}
 \begin{frame}{AMD Secure Encrypted Virtualization I}
-	\begin{itemize}
-		\item kombiniert AMD SME \& virtuelle Maschinen
-		\item AMD-V Architektur
-		\item Ziel: virtuelle Maschinen schützen
+	\begin{minipage}{0.6\linewidth}
 		\begin{itemize}
-			\item physische Angriffe
-			\item Hypervisor-Angriffe
-			\item Angriffe anderer virtuellen Maschinen
+			\item Kombiniert AMD SME \& virtuelle Maschinen
+			\item AMD-V Architektur
+			\item Ziel: virtuelle Maschinen schützen
+			\begin{itemize}
+				\item Physische Angriffe
+				\item Hypervisor-Angriffe
+				\item Angriffe anderer virtuellen Maschinen
+			\end{itemize}
+			\item Keine Software-Modifikationen
 		\end{itemize}
-		\item keine Software-Modifikationen
-	\end{itemize}
-	% \todo[inline, size=\tiny]{genauer eingehen auf Architektur}
-	\vfill
-	\small\textit{\{\cite{kaplan, buhren}\}}
+		% \todo[inline, size=\tiny]{genauer eingehen auf Architektur}
+		\vspace{3ex}
+		\vfill
+		\small\textit{\{\cite{kaplan, buhren}\}}
+	\end{minipage}
+	\begin{minipage}{0.39\linewidth}
+		\begin{figure}[!h]
+			\centering
+			\includegraphics[width=0.7\linewidth]{Bilder/sme_vm_sev.png}
+			\caption{AMD SEV Kombination aus AMD SME \& virtuellen Maschinen.}
+		\end{figure}
+		% \begin{center}
+		% 	\includegraphics[width=0.65\linewidth]{Bilder/AMD_Guest_HV.jpg} \\
+		% 	\small\textit{\{\cite{kaplan}\}}
+		% \end{center}
+	\end{minipage}
 \end{frame}
 
 \begin{frame}{AMD Secure Encrypted Virtualization II}
@@ -161,8 +175,8 @@
 			%
 			\item Sicherheitsmodell
 			\begin{itemize}
-				\item isolierte Bereiche anstatt Ring-basiert
-				\item streng kontrollierte Kommunikationspfade zwischen Hypervisor \& Gast
+				\item Isolierte Bereiche anstatt Ring-basiert
+				\item Streng kontrollierte Kommunikationspfade zwischen Hypervisor \& Gast
 			\end{itemize}
 			%
 			\item Schwachstellen
@@ -194,31 +208,47 @@
 
 \subsection{Intel SGX}
 \begin{frame}{Intel SGX}
-	\begin{itemize}
-		\item x86 Prozessorarchitektur Erweiterung
-		\item Hardware-unterstützte Trusted Execution Environments (TEE) / Enklaven
-		\item Schutz vor physikalische Speicherzugriffe o.Ä.\\
-			Zugriffskontrollmechanismus
-		\item Hardware-basierte Memory Encryption Engine (MEE)
-		\item Datentransport zwischen Enklaven-Seiten-Cache (EPC) \& System-Speicher
-	\end{itemize}
-	\vfill
-	\small\textit{\{\cite{costan, knauth, mofrad, swami}\}}
+	\begin{minipage}{0.55\linewidth}
+		\begin{itemize}
+			\item x86 Prozessorarchitektur Erweiterung
+			\item Hardware-unterstützte Trusted Execution Environments (TEE) / Enklaven
+			\item Schutz vor physikalische Speicherzugriffe o.Ä.\\
+				Zugriffskontrollmechanismus
+			\item Hardware-basierte Memory Encryption Engine (MEE)
+			\item Datentransport zwischen Enklaven-Seiten-Cache (EPC) \& System-Speicher
+		\end{itemize}
+		\vspace{1ex}
+		\vfill
+		\small\textit{\{\cite{costan, knauth, mofrad, swami}\}}
+	\end{minipage}
+	\begin{minipage}{0.44\linewidth}
+		\begin{figure}[!h]
+			\centering
+			\includegraphics[width=0.35\linewidth]{Bilder/Intel_sgx_enclave.png}
+			\caption{Intel SGX Enklaven Layout \textit{\{\cite{intel_sgx_enclave}\}}. }
+		\end{figure}
+		% \begin{center}
+		% 	\includegraphics[width=0.65\linewidth]{Bilder/AMD_Guest_HV.jpg} \\
+		% 	\small\textit{\{\cite{kaplan}\}}
+		% \end{center}
+	\end{minipage}
 \end{frame}
 
 \subsection{Funktion \& Anwendungsfälle | Sicherheit | Performance | Remote Attestation}
 
 % \subsection{Funktion \& Anwendungsfälle}
 \begin{frame}{Funktion \& Anwendungsfälle}
+	\begin{center}
+		\begin{tabular}[h]{c|c}
+			\color{kitgreen} AMD SEV & \color{kitgreen}Intel SGX \\
+			\hline
+			Server-Prozessor (AMD EPYC) & Desktop- / Server-Prozessor \\
+			anspruchsvolle Anwendungen & Mikro-Services / kleinere Apps \\
+			viele Daten, kein höheres Maß an Sicherheit & kleine Menge an sicherheits-sensitiven Daten \\
+			
+		\end{tabular}
+	\end{center}
 
-	\begin{tabular}[h]{c|c}
-		\color{kitgreen} AMD SEV & \color{kitgreen}Intel SGX \\
-		\hline
-		Server-Prozessor (AMD EPYC) & Desktop- / Mobile-Prozessor \\
-		anspruchsvolle Anwendungen & Mikro-Services / kleinere Apps \\
-		viele Daten, kein höheres Maß an Sicherheit & kleine Menge an sicherheits-sensitiven Daten \\
-		
-	\end{tabular}
 
 	% \begin{itemize}
 	% 	\item Intel SGX
@@ -258,7 +288,7 @@
 		\begin{itemize}
 			\item Memory Encryption Engine nutzt AES im Electronic Codebook (ECB) Modus \\
 			% \item Data-Leaks durch ECB \(\rightarrow\) AMD Algorithmus 
-				\(\rightarrow\) kein Speicherintegritätsschutz
+				\(\rightarrow\) Kein Speicherintegritätsschutz
 			\item Manipulation von Speicherseiten / DOS-Angriffe durch höher privilegierten Hypervisor\\
 			\(\rightarrow\) VM-spezifischen AMD Secure Prozessor Schlüssel
 		\end{itemize}
@@ -271,13 +301,13 @@
 \begin{frame}{Performance}
 	\begin{minipage}{0.49\linewidth}
 		\begin{itemize}
-			\item verschlüsselter Speicher, großer Pufferspeicher \\ \(\rightarrow\) AMD schneller
+			\item Verschlüsselter Speicher, großer Pufferspeicher \\ \(\rightarrow\) AMD schneller
 			\item Einsatz AMD SEV \(\rightarrow\) Leistungseinbuße \begin{math} \sim \end{math}1,9x
 			\item Einsatz Intel SGX  \(\rightarrow\) Leistungseinbuße \begin{math} \sim \end{math}8,2x
 		\end{itemize}
 		\vfill
 		\color{kitgreen}
-		{komplexer Workload mit großem Pufferspeicher\\ \(\rightarrow\) \textbf{AMD übertrifft Intel}}
+		{Komplexer Workload mit großem Pufferspeicher\\ \(\rightarrow\) \textbf{AMD übertrifft Intel}}
 		% \begin{greenblock}{}
 		% 	\texttt{komplexer Workload mit großem Pufferspeicher \(\Rightarrow\) \textbf{AMD übertrifft Intel}}
 		% 	\end{greenblock}
@@ -301,20 +331,20 @@
 	\begin{itemize}
 		\item Intel SGX
 		\begin{itemize}
-			\item gegen Vortäuschen von SGX
-			\item bei Enklaven-Instanziierung nötig
+			\item Gegen Vortäuschen von SGX
+			\item Sichere Kommunikationskanäle zu externen Stellen
 			\item Intel signierte Enklaven
 			\begin{itemize}
-				\item Provisioning Enclave
-				\item Provisioning Certification Enclave
+				% \item Provisioning Enclave
+				% \item Provisioning Certification Enclave
 				\item Quoting Enclave 
 			\end{itemize}
 		\end{itemize}
 		\item AMD SEV
 		\begin{itemize}
-			\item gegen Vortäuschen SEV \& Modifikation von virtuellen Maschinen
-			\item bei Einsatz oder Migration eines Gastes nötig
-			\item sicherer Übertragungskanal\\
+			\item Gegen Vortäuschen SEV \& Modifikation von virtuellen Maschinen
+			\item Einsatz oder Migration eines Gastes
+			\item Sicherer Übertragungskanal\\
 				\(\rightarrow\) Authentizität, Integrität \& Vertraulichkeit der Kommunikation
 		\end{itemize}
 	\end{itemize}
@@ -328,16 +358,16 @@
 	\begin{itemize}
 		\item Intel SGX
 		\begin{itemize}
-			\item starker Speicherintegritätsschutz
+			\item Starker Speicherintegritätsschutz
 		\end{itemize}
-			\(\rightarrow\) kleine aber streng sicherheitskritische Applikationen
+			\(\rightarrow\) Kleine aber streng sicherheitskritische Applikationen
 		\item AMD SEV
 		\begin{itemize}
-			\item kein Speicherintegritätsschutz
+			\item Kein Speicherintegritätsschutz
 			\item Bereitstellung großer Mengen an Ressourcen für Applikationen
-			\item bessere Performance als Intel SGX
+			\item Bessere Performance als Intel SGX
 		\end{itemize}
-			\(\rightarrow\) komplexe \& oder ältere Anwendungen / Dienstleistungen
+			\(\rightarrow\) Komplexe \& oder ältere Anwendungen / Dienstleistungen
 	\end{itemize}
 \end{frame}
 
@@ -349,14 +379,14 @@
 		\item AMD Secure Encrypted Virtualization (SEV)
 		\begin{itemize}
 			\item Release 2018 | AMD EPYC Server-Prozessor
-			\item komplexe \& oder ältere Anwendungen / Dienstleistungen\\
+			\item Komplexe \& oder ältere Anwendungen / Dienstleistungen\\
 				\(\rightarrow\) Cloud-Computing mit virtuellen Maschinen
 		\end{itemize}
 		\item Intel Software Guard eXtensions (SGX)
 		\begin{itemize}
 			\item Release 2015 | Skylake Desktop-Prozessor
-			\item kleine aber streng sicherheitskritische Applikationen\\
-				\(\rightarrow\) Desktop-Applikationen
+			\item Kleine aber streng sicherheitskritische Applikationen\\
+				\(\rightarrow\) Desktop- \& Server-Applikationen
 		\end{itemize}
 	\end{itemize}
 \end{frame}
@@ -366,9 +396,10 @@
 	\begin{itemize}
 		\item Trusted Cloud-Computing nimmt an Popularität zu
 		\item AMD SEV für Sicherheit nötig \\
-			\(\rightarrow\) in Zukunft weiterhin verwendet
+			\(\rightarrow\) In Zukunft weiterhin verwendet
 		\item AMD SEV aktuelles Problem
 		\begin{itemize}
+			\item Speicherintegritätsschutz
 			\item Seitenkanalangriffe | Manipulation der Spannung
 		\end{itemize}
 	\end{itemize}
